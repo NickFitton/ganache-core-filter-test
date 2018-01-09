@@ -1,0 +1,20 @@
+{
+  "name": "ganache-core-filter-test",
+  "version": "1.0.0",
+  "description": "A proof of the failiure to filter past events in ganache-cli",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test --network=local",
+    "localChain": "ganache-cli"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "solc": "^0.4.19",
+    "truffle": "^4.0.4"
+  }
+}
